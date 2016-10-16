@@ -6,9 +6,14 @@ SourceColumn:	list. Any dates column or list of dates can be supplied.
 				All non-date (according to current or suppplied Culture) values will be removed from list.
 				
 CalType:		optional number. 
-				From month to month: If 1 then calendar will be sart from first day in the month of the earliest date and end  at the last day in the month of the last date
-				From year to year: If 2 then calendar will start from 01 Jan of the same year as earliest date in list, and end at 31 Dec of the year of last date. 
-				From date to date: If 0, omitted or any other number then calendar will be build from earliest date to last date only.
+			From month to month: If 1 then calendar will be sart from first day in the month of the earliest date 
+			and end  at the last day in the month of the last date
+			
+			From year to year: If 2 then calendar will start from 01 Jan of the same year as earliest date in list, 
+			and end at 31 Dec of the year of last date. 
+			
+			From date to date: If 0, omitted or any other number then calendar will be build from earliest date 
+			to last date only.
 				
 Culture: 		optional text. Locale name ("en-US", "en-GB","ru-RU" etc.)
 */
